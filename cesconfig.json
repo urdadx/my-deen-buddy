@@ -1,0 +1,39 @@
+{
+	"cesVersion": "2.11.24",
+	"projectName": "my-deen-app",
+	"packages": [
+		{
+			"name": "react-navigation",
+			"type": "navigation",
+			"options": {
+				"type": "tabs"
+			}
+		},
+		{
+			"name": "nativewind",
+			"type": "styling"
+		},
+		{
+			"name": "supabase",
+			"type": "authentication"
+		}
+	],
+	"flags": {
+		"noGit": false,
+		"noInstall": false,
+		"overwrite": false,
+		"importAlias": true,
+		"packageManager": "bun",
+		"eas": true
+	},
+	"packageManager": {
+		"type": "bun",
+		"version": "1.1.29"
+	},
+	"os": {
+		"type": "Linux",
+		"platform": "linux",
+		"arch": "x64",
+		"kernelVersion": "6.9.3-76060903-generic"
+	}
+}
